@@ -142,10 +142,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--hero__heading__color);
-  padding-top: 192px;
-  padding-bottom: 48px;
   width: 496px;
-  display: flex;
   margin: 0 auto;
 }
 
@@ -165,7 +162,7 @@ body {
   padding-left: 32px;
   padding-right: 32px;
   display: block;
-  margin: 0 auto;
+  margin: 48px auto;
 }
 .hero__button:active {
   color: #ffffff;
@@ -198,6 +195,10 @@ body {
 }
 .adv_dscr:not(:last-child) {
   margin-right: 24px;
+}
+.advantage_section {
+  display: flex;
+  margin: 0 auto;
 }
 .team {
   background-color: var(--team_bgr);
@@ -233,6 +234,9 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.team_title {
+  margin-bottom: 72px;
+}
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -244,7 +248,12 @@ body {
 }
 .subtitle_dscr {
   margin-bottom: 8px;
+  text-align: center;
 }
+.img_dscr {
+  margin-bottom: 32px;
+}
+
 /* ----FOOTER--- */
 .logo_footer {
   font-family: "Raleway", sans-serif;
@@ -310,4 +319,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.filtr_marg {
+  margin-right: 24px;
+}
+.menu_portfolio {
+  margin-top: 96px;
+  margin-bottom: 72px;
+}
+.elements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
