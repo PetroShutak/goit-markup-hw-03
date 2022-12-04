@@ -55,6 +55,10 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 /* -----<Header------- */
 .page_header_container {
   display: flex;
@@ -129,7 +133,6 @@ body {
 
 /* ----HERO----- */
 .hero {
-  width: 1440px;
   background: var(--hero_bgr_color);
 }
 .hero__heading {
@@ -140,7 +143,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--hero__heading__color);
   padding-top: 192px;
-  padding-bottom: 291px;
+  padding-bottom: 48px;
+  width: 496px;
+  display: flex;
+  margin: 0 auto;
 }
 
 .hero__button {
@@ -158,6 +164,8 @@ body {
   padding-bottom: 16px;
   padding-left: 32px;
   padding-right: 32px;
+  display: block;
+  margin: 0 auto;
 }
 .hero__button:active {
   color: #ffffff;
@@ -184,16 +192,12 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-.advantage_section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 .adv_dscr {
   display: flex;
   align-items: center;
 }
 .adv_dscr:not(:last-child) {
-  margin-right: 40px;
+  margin-right: 24px;
 }
 .team {
   background-color: var(--team_bgr);
@@ -218,7 +222,17 @@ body {
   color: var(--description_color);
 }
 /* ------WHAT ARE WE DOING------- */
-
+.what_section {
+  display: flex;
+  justify-content: space-between;
+}
+.what_title {
+  margin-bottom: 72px;
+}
+.team_section {
+  display: flex;
+  justify-content: space-between;
+}
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -226,8 +240,11 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--title_color);
+  text-align: center;
 }
-
+.subtitle_dscr {
+  margin-bottom: 8px;
+}
 /* ----FOOTER--- */
 .logo_footer {
   font-family: "Raleway", sans-serif;
@@ -239,6 +256,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo_footer_color);
+  margin-bottom: 16px;
 }
 .logo__accent__footer {
   color: #4d5ae5;
@@ -246,12 +264,17 @@ body {
 .footer {
   background-color: var(--footer_bgr);
 }
+.section_footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 .description_footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--description_footer_color);
+  width: 264px;
 }
 
 /* -----PORTFOLIO------ */
