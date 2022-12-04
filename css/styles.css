@@ -133,7 +133,7 @@ body {
 
 /* ----HERO----- */
 .hero {
-  background: var(--hero_bgr_color);
+  background-color: var(--hero_bgr_color);
 }
 .hero__heading {
   font-weight: 700;
