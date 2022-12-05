@@ -145,7 +145,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--hero__heading__color);
   width: 496px;
-  margin-bottom: 0 auto 48px auto;
+  margin: 0 auto 48px auto;
 }
 
 .hero__button {
@@ -192,9 +192,7 @@ body {
 .adv_dscr {
   display: flex;
   align-items: center;
-}
-.adv_dscr:not(:last-child) {
-  margin-right: 24px;
+  column-gap: 24px;
 }
 .advantage_section {
   padding-top: 120px;
