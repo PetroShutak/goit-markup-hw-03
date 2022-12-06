@@ -193,6 +193,9 @@ body {
 .adv_dscr {
   display: flex;
   align-items: center;
+}
+.adv_gap {
+  display: inline-block;
   column-gap: 24px;
 }
 .advantage_section {
@@ -282,9 +285,11 @@ body {
 }
 
 /* -----PORTFOLIO------ */
-.portfolio {
+
+/* .portfolio {
   background-color: var(--portfolio_bgr);
-}
+} */
+
 .button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -342,6 +347,9 @@ body {
   padding-left: 16px;
   border: 0.5px solid #f4f4fd;
   border-top: none;
+}
+.portfolio_link {
+  display: block;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
