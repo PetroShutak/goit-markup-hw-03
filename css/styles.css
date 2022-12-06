@@ -193,10 +193,10 @@ body {
 .adv_dscr {
   display: flex;
   align-items: center;
+  gap: 24px;
 }
 .adv_gap {
-  display: inline-block;
-  column-gap: 24px;
+ flex-basis: calc((100% - 72px) / 4);
 }
 .advantage_section {
   padding-top: 120px;
